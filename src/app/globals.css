@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/Gotham-Medium.otf');
+}
+@font-face {
+  font-family: 'GothamBold';
+  src: url('/fonts/Gotham-Bold.otf');
+}
+@font-face {
+  font-family: 'GothamBlack';
+  src: url('/fonts/Gotham-Black.otf');
+}
+@font-face {
+  font-family: 'BurgerElbow';
+  src: url('/fonts/BurgerElbow.ttf');
+}
+
+textarea{
+  resize: none;
+}
