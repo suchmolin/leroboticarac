@@ -10,6 +10,7 @@ export default function HeaderRAC() {
             objectFit="contain"
             layout="fill"
             alt="Lerobotica"
+            priority
           />
         </div>
         <h2 className="text-5xl xl:text-6xl flex flex-col text-center text-violetaLR font-[BurgerElbow]">
@@ -28,6 +29,7 @@ export default function HeaderRAC() {
                 objectFit="contain"
                 layout="fill"
                 alt="Lerobotica"
+                priority
               />
             </div>
             <h2 className="text-4xl flex flex-col text-center text-violetaLR font-[BurgerElbow]">
@@ -53,6 +55,7 @@ export default function HeaderRAC() {
               layout="fill"
               alt="Lerobotica"
               objectPosition="bottom"
+              priority
             />
           </div>
         </div>

@@ -1,7 +1,7 @@
 export default function HorariosRAC() {
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <div className="w-7/12 bg-azulClaroLR rounded-3xl py-10 px-14 flex flex-col font-[GothamBlack] mb-10">
+      <div className="w-7/12 bg-azulClaroLR rounded-3xl py-10 px-14 flex flex-col font-[GothamBlack] mb-10 z-10">
         <h2 className="text-5xl text-violetaLR text-center mb-10">Horarios</h2>
         <div className="flex mb-10">
           <div className="w-6/12 flex flex-col items-center text-center text-2xl tracking-wider">
@@ -42,9 +42,9 @@ export default function HorariosRAC() {
       </div>
       <a
         href="#"
-        className="w-fit px-6 py-2 bg-violetaLR rounded-3xl inline-block text-white text-2xl font-[GothamBlack] hover:bg-azulLR hover:text-white transition-all duration-300 mb-10"
+        className="w-fit px-10 py-2 bg-violetaLR rounded-3xl inline-block text-white text-2xl font-[GothamBlack] hover:bg-azulLR hover:text-white transition-all duration-300 mb-10"
       >
-        Agenda tu horario
+        Consúltanos
       </a>
     </div>
   )

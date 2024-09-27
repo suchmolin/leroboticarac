@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function DiferenciasRAC() {
   return (
-    <div className="w-full flex justify-center py-20 bg-[url('/img/fondoDif.jpg')] bg-contain bg-top bg-no-repeat -mt-1">
+    <div className="relative w-full flex justify-center py-20 bg-[url('/img/fondoDif.jpg')] bg-contain bg-top bg-no-repeat -mt-1">
       <div className="w-11/12 sm:w-10/12 lg:w-9/12 flex flex-col-reverse sm:flex-row justify-between items-center">
         <div className="w-7-12 xl:w-6/12 flex flex-col justify-center gap-3 py-10">
           <h2 className="text-2xl xs:text-3xl sm:text-4xl font-[GothamBold] text-violetaLR">
@@ -40,12 +40,33 @@ export default function DiferenciasRAC() {
             </p>
           </div>
         </div>
-        <div className="relative w-[200px] xs:w-[350px] sm:w-[630px] aspect-square -mt-20">
+        <div className="relative w-[200px] xs:w-[350px] sm:w-[630px] aspect-square -mt-20 z-10">
           <Image
             src="/img/robotDif.png"
             layout="fill"
             objectFit="contain"
             alt="robot"
+          />
+        </div>
+      </div>
+      <div className="absolute top-[200px] right-0 z-0">
+        <div className="relative w-[600px] aspect-square">
+          <Image
+            src="/img/imgDif.png"
+            layout="fill"
+            objectFit="contain"
+            alt="lego"
+            objectPosition="right"
+          />
+        </div>
+      </div>
+      <div className="absolute top-[350px] left-0 z-0">
+        <div className="relative w-[600px] aspect-square">
+          <Image
+            src="/img/linea2.png"
+            layout="fill"
+            objectFit="contain"
+            alt="lego"
           />
         </div>
       </div>

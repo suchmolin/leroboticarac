@@ -31,13 +31,20 @@ export default function VidSection() {
             CONÓCENOS
           </h3>
           <p className="text-justify sm:text-xl">
-            Somos el instituto líder en robótica y programacion para niños,
+            <span className="text-verdeLR font-[GothamBold]">
+              Somos el instituto líder en robótica y programacion para niños,{" "}
+            </span>
             donde la creatividad se une con la tecnología. Ofrecemos espacios
             innovadores para que exploren, construyan y programen a través del{" "}
-            <b>Sistema de Aprendizaje LEGO.</b>
+            <span className="text-azulLR font-[GothamBold]">
+              Sistema de Aprendizaje LEGO.
+            </span>
           </p>
         </div>
       </div>
+      <h2 className="text-5xl text-azulLR text-center py-5 font-[GothamBlack]">
+        ¡Conoce las etapas!
+      </h2>
       <div className="absolute left-0 top-60 sm:top-20 md:top-[450px] lg:top-60">
         <div className="relative w-[200px] sm:w-[300px] lg:w-[500px] aspect-square">
           <Image

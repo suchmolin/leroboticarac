@@ -6,7 +6,7 @@ export default function FormContactoRAC() {
     <div className="w-full flex items-center justify-center pb-20">
       <form
         id="myForm"
-        className="relative w-full sm:w-9/12 bg-amarilloLR py-7 px-10 rounded-xl flex flex-col gap-3 sm:gap-7 justify-center items-center shadow-xl"
+        className="relative w-full sm:w-9/12 bg-white/40 py-10 px-10 rounded-xl flex flex-col gap-3 sm:gap-7 justify-center items-center shadow-xl"
       >
         <div className="w-full ">
           <input
@@ -14,7 +14,7 @@ export default function FormContactoRAC() {
             type="text"
             id="nombre"
             name="Nombre"
-            className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full p-2.5  placeholder:text-gray-800"
+            className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full px-2.5 py-5  placeholder:text-gray-800"
             required
           />
         </div>
@@ -24,7 +24,7 @@ export default function FormContactoRAC() {
             type="text"
             id="ciudad"
             name="ciudad"
-            className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full p-2.5  placeholder:text-gray-800"
+            className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full px-2.5 py-5  placeholder:text-gray-800"
             required
           />
           <input
@@ -32,7 +32,7 @@ export default function FormContactoRAC() {
             type="number"
             id="telefono"
             name="telefono"
-            className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full p-2.5 placeholder:text-gray-800"
+            className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full px-2.5 py-5 placeholder:text-gray-800"
             required
           />
         </div>
@@ -42,7 +42,7 @@ export default function FormContactoRAC() {
             type="email"
             id="email"
             name="email"
-            className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full p-2.5  placeholder:text-gray-800"
+            className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full px-2.5 py-5  placeholder:text-gray-800"
             required
           />
         </div>
@@ -71,7 +71,7 @@ export default function FormContactoRAC() {
         </div>
         <input
           type="submit"
-          value="Enviar"
+          value="¡Inscríbete ahora!"
           className="absolute -bottom-16 bg-azulLR text-white rounded-3xl py-1 px-10 text-2xl font-[GothamBold] hover:bg-violetaLR transition-all duration-300 cursor-pointer"
         />
       </form>
