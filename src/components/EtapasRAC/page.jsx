@@ -1,3 +1,4 @@
+import Image from "next/image"
 import TarjetaEtapa from "../TarjetaEtapa/page"
 
 export default function EtapasRAC() {
@@ -43,10 +44,32 @@ export default function EtapasRAC() {
     },
   ]
   return (
-    <div className="w-full flex flex-col items-center -mt-1">
+    <div className="relative w-full flex flex-col items-center -mt-1">
       {data.map((item, index) => (
         <TarjetaEtapa data={item} key={index} />
       ))}
+      <div className="absolute left-0 top-0">
+        <div className="relative w-[420px] h-[150vh]">
+          <Image
+            src="/img/fondoEtapas.png"
+            objectFit="contain"
+            objectPosition="left"
+            layout="fill"
+            alt="gota"
+          />
+        </div>
+      </div>
+      <div className="absolute right-0 bottom-0">
+        <div className="relative w-[420px] h-[150vh]">
+          <Image
+            src="/img/fondoEtapas2.png"
+            objectFit="contain"
+            objectPosition="bottom"
+            layout="fill"
+            alt="gota"
+          />
+        </div>
+      </div>
     </div>
   )
 }

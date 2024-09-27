@@ -18,7 +18,7 @@ export default function TarjetaEtapa({ data }) {
     <div
       className={`w-full flex items-center justify-center py-5 ${colorFondo}`}
     >
-      <div className="w-10/12 xl:w-8/12 flex flex-col sm:flex-row items-center justify-center">
+      <div className="w-10/12 xl:w-8/12 flex flex-col sm:flex-row items-center justify-center z-20">
         <div className="relative w-[250px] lg:w-[350px] aspect-square">
           <Image src={imgSrc} alt={imgAlt} layout="fill" objectFit="contain" />
         </div>
