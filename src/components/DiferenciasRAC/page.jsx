@@ -6,7 +6,7 @@ export default function DiferenciasRAC() {
       id="diferencia"
       className="relative w-full flex justify-center  pt-20 pb-10 sm:py-20 bg-[url('/img/fondoDif.png')] bg-contain bg-top bg-no-repeat -mt-1 "
     >
-      <div className="w-11/12 sm:w-10/12 lg:w-9/12 flex flex-col-reverse sm:flex-row justify-between items-center z-10">
+      <div className="w-11/12 sm:w-10/12 lg:w-9/12 flex flex-col sm:flex-row justify-between items-center z-10">
         <div className="w-7-12 xl:w-6/12 flex flex-col justify-center gap-3 py-10">
           <h2 className="text-2xl xs:text-3xl sm:text-4xl font-[GothamBold] text-violetaLR">
             ¿Qué nos diferencia?
@@ -43,7 +43,7 @@ export default function DiferenciasRAC() {
             </p>
           </div>
         </div>
-        <div className="relative w-[200px] xs:w-[350px] sm:w-[630px] aspect-square -mt-20 z-10">
+        <div className="relative w-[200px] xs:w-[350px] sm:w-[630px] aspect-square sm:-mt-20 z-10">
           <Image
             src="/img/robotDif.png"
             layout="fill"
@@ -52,7 +52,7 @@ export default function DiferenciasRAC() {
           />
         </div>
       </div>
-      <div className="absolute top-10 xs:top-20 sm:top-[200px] right-0 z-0">
+      <div className="hidden sm:block absolute top-10 xs:top-20 sm:top-[200px] right-0 z-0">
         <div className="relative w-[170px] xs:w-[300px] sm:w-[400px] lg:w-[600px] aspect-square">
           <Image
             src="/img/imgDif.png"

@@ -22,10 +22,10 @@ export default function TarjetaEtapa({ data }) {
         <div className="relative w-[250px] lg:w-[350px] aspect-square">
           <Image src={imgSrc} alt={imgAlt} layout="fill" objectFit="contain" />
         </div>
-        <div className="w-11/12 sm:w-8/12 sm:pl-5  lg:pl-10 xl:pl-20 sm:pr-10 md:pr-20 lg:pr-40 xl:pr-20">
+        <div className="w-11/12 sm:w-8/12 sm:pl-5  lg:pl-10 xl:pl-20 sm:pr-10 md:pr-20 lg:pr-40 xl:pr-20 flex flex-col items-center sm:items-start">
           <div className="w-full flex flex-col sm:flex-row sm:justify-between items-center mb-5">
             <p
-              className={`${colorFondoTitulo} ${colorTitulo} rounded-md py-1 px-4 text-base md:text-lg lg:text-xl font-[GothamBold]`}
+              className={`${colorTitulo} rounded-md py-1 text-base md:text-lg lg:text-3xl font-[GothamBold]`}
             >
               {titulo}
             </p>
@@ -36,10 +36,16 @@ export default function TarjetaEtapa({ data }) {
             </p>
           </div>
           <p
-            className={`text-xs md:text-sm lg:text-base text-justify ${colorTexto}`}
+            className={`text-xs md:text-sm lg:text-base text-justify mb-7 ${colorTexto}`}
           >
             {texto}
           </p>
+          <a
+            href="#contactanos"
+            className={`text-white px-4 py-2 rounded-md w-fit ${colorFondoTitulo}`}
+          >
+            Comenzar
+          </a>
         </div>
       </div>
     </div>

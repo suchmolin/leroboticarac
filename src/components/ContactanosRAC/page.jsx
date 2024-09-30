@@ -4,7 +4,7 @@ export default function ContactanosRAC() {
   return (
     <div
       id="contactanos"
-      className="w-full flex justify-center items-center py-10 bg-amarilloLR pb-48 bg-[url('/img/fondoContactanos.png')] bg-left-bottom bg-no-repeat bg-contain"
+      className="w-full flex justify-center items-center py-10 bg-amarilloLR pb-64 bg-[url('/img/fondoContactanosResp.png')] sm:bg-[url('/img/fondoContactanos.png')] bg-left-bottom bg-no-repeat bg-contain"
     >
       <div className="w-10/12 flex flex-col lg:flex-row justify-center items-center lg:items-start">
         <div className="lg:w-6/12 relative flex flex-col">

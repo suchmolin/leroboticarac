@@ -18,7 +18,7 @@ export default function EtapasRAC() {
     },
     {
       colorFondo: "bg-white",
-      colorTitulo: "text-white",
+      colorTitulo: "text-azulLR",
       colorFondoTitulo: "bg-azulLR",
       colorEdades: "text-violetaLR",
       colorTexto: "text-black",
@@ -31,7 +31,7 @@ export default function EtapasRAC() {
     },
     {
       colorFondo: "bg-azulLR",
-      colorTitulo: "text-azulLR",
+      colorTitulo: "text-amarilloLR",
       colorFondoTitulo: "bg-amarilloLR",
       colorEdades: "text-white",
       colorTexto: "text-white",
