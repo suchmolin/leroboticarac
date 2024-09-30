@@ -6,7 +6,7 @@ export default function FormContactoRAC() {
     <div className="w-full flex items-center justify-center pb-20">
       <form
         id="myForm"
-        className="relative w-full sm:w-9/12 bg-white/40 py-10 px-10 rounded-xl flex flex-col gap-3 sm:gap-7 justify-center items-center shadow-xl"
+        className="relative w-full sm:w-9/12 bg-white/40 py-10 px-5 xs:px-10 rounded-xl flex flex-col gap-3 sm:gap-7 justify-center items-center shadow-xl"
       >
         <div className="w-full ">
           <input
@@ -72,7 +72,7 @@ export default function FormContactoRAC() {
         <input
           type="submit"
           value="¡Inscríbete ahora!"
-          className="absolute -bottom-16 bg-azulLR text-white rounded-3xl py-1 px-10 text-2xl font-[GothamBold] hover:bg-violetaLR transition-all duration-300 cursor-pointer"
+          className="absolute -bottom-16 bg-azulLR text-white rounded-3xl py-1 px-5 xs:px-10 text-2xl font-[GothamBold] hover:bg-violetaLR transition-all duration-300 cursor-pointer"
         />
       </form>
     </div>

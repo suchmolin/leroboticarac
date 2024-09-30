@@ -20,6 +20,9 @@
   src: url('/fonts/BurgerElbow.ttf');
 }
 
+*{
+  scroll-behavior: smooth; 
+}
 textarea{
   resize: none;
 }

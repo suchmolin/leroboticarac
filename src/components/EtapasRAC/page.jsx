@@ -44,12 +44,12 @@ export default function EtapasRAC() {
     },
   ]
   return (
-    <div className="relative w-full flex flex-col items-center -mt-1">
+    <div className="relative w-full flex flex-col items-center -mt-1 overflow-hidden">
       {data.map((item, index) => (
         <TarjetaEtapa data={item} key={index} />
       ))}
       <div className="absolute left-0 top-0">
-        <div className="relative w-[420px] h-[150vh]">
+        <div className="relative w-[420px] h-[110vh] lg:h-[150vh]">
           <Image
             src="/img/fondoEtapas.png"
             objectFit="contain"
@@ -60,11 +60,11 @@ export default function EtapasRAC() {
         </div>
       </div>
       <div className="absolute right-0 bottom-0">
-        <div className="relative w-[420px] h-[150vh]">
+        <div className="relative w-[420px] h-[110vh] lg:h-[150vh]">
           <Image
             src="/img/fondoEtapas2.png"
             objectFit="contain"
-            objectPosition="bottom"
+            objectPosition="right"
             layout="fill"
             alt="gota"
           />

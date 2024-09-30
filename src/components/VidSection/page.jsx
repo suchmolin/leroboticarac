@@ -17,7 +17,10 @@ export default function VidSection() {
           className="w-full h-full cursor-pointer"
         ></video>
       </div>
-      <div className="w-full lg:w-10/12 flex flex-col md:flex-row items-center">
+      <div
+        id="conocenos"
+        className="w-full lg:w-10/12 flex flex-col md:flex-row items-center"
+      >
         <div className="relative w-[270px] xs:w-[300px] md:w-[500px] aspect-square z-10">
           <Image
             src="/img/robotConocenos.png"
@@ -42,7 +45,10 @@ export default function VidSection() {
           </p>
         </div>
       </div>
-      <h2 className="text-5xl text-azulLR text-center py-5 font-[GothamBlack]">
+      <h2
+        id="etapas"
+        className="text-3xl sm:text-5xl text-azulLR text-center py-5 font-[GothamBlack]"
+      >
         ¡Conoce las etapas!
       </h2>
       <div className="absolute left-0 top-60 sm:top-20 md:top-[450px] lg:top-60">

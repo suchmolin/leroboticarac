@@ -5,7 +5,7 @@ export default function NavBar() {
         <li className="h-full items-center flex">
           <a
             className="h-full flex items-center px-10 hover:bg-verdeLR transition-all duration-300"
-            href="#"
+            href="#conocenos"
           >
             Conócenos
           </a>
@@ -13,7 +13,7 @@ export default function NavBar() {
         <li className="h-full items-center flex">
           <a
             className="h-full flex items-center px-10 hover:bg-verdeLR transition-all duration-300"
-            href="#"
+            href="#etapas"
           >
             Etapas
           </a>
@@ -21,7 +21,7 @@ export default function NavBar() {
         <li className="h-full items-center flex">
           <a
             className="h-full flex items-center px-10 hover:bg-verdeLR transition-all duration-300"
-            href="#"
+            href="#horarios"
           >
             Horarios
           </a>
@@ -29,9 +29,9 @@ export default function NavBar() {
         <li className="h-full items-center flex">
           <a
             className="h-full flex items-center px-10 hover:bg-verdeLR transition-all duration-300"
-            href="#"
+            href="#contactanos"
           >
-            Contactanos
+            Contáctanos
           </a>
         </li>
       </ul>

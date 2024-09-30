@@ -4,7 +4,7 @@ export default function WhatsappButton() {
   return (
     <a
       href="#"
-      className="fixed bottom-4 right-4 rounded-full bg-verdeLR p-2 flex justify-center items-center text-white text-3xl hover:bg-white hover:text-verdeLR transition-all duration-300 shadow-xl"
+      className="fixed bottom-2 xs:bottom-4 right-2 xs:right-4 rounded-full bg-verdeLR p-2 flex justify-center items-center text-white text-3xl hover:bg-white hover:text-verdeLR transition-all duration-300 shadow-xl z-50"
     >
       <FaWhatsapp />
     </a>
