@@ -35,7 +35,7 @@ export default function VidSection() {
           </h3>
           <p className="text-justify sm:text-xl">
             <span className="text-verdeLR font-[GothamBold]">
-              Somos el instituto líder en robótica y programacion para niños,{" "}
+              Somos el instituto líder en robótica y programación para niños,{" "}
             </span>
             donde la creatividad se une con la tecnología. Ofrecemos espacios
             innovadores para que exploren, construyan y programen a través del{" "}

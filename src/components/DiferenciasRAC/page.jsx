@@ -39,7 +39,7 @@ export default function DiferenciasRAC() {
           <div className="flex gap-4 sm:text-lg lg:text-xl">
             <div className="w-[15px] h-[15px] mt-2 bg-amarilloLR"></div>
             <p className="w-11/12">
-              Espacios temáticos y<b>seguros</b>
+              Espacios temáticos y <b>seguros</b>
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@ import Image from "next/legacy/image"
 
 export default function HeaderRAC() {
   return (
-    <div className="w-full h-[650px] xs:h-[680px] sm:h-[720px] flex justify-center mt-10 ">
+    <div className="w-full h-[650px] xs:h-[700px] sm:h-[720px] flex justify-center mt-10 ">
       <div className="w-4/12 lg:w-3/12 h-full hidden sm:flex flex-col items-center justify-center">
         <div className="relative w-[200px] lg:w-[180px] xl:w-[200px] h-[300px] lg:h-[200px] xl:h-[300px] mb-7">
           <Image
@@ -34,7 +34,7 @@ export default function HeaderRAC() {
             </div>
             <a
               href="#contactanos"
-              className="w-fit px-16 py-1 sm:py-2 bg-verdeLR rounded-3xl inline-block text-white text-lg xs:text-2xl font-[GothamBlack] hover:bg-azulLR hover:text-white transition-all duration-300 z-10"
+              className="w-fit px-16 py-3 sm:py-2 bg-verdeLR rounded-3xl inline-block text-white text-lg xs:text-2xl font-[GothamBlack] hover:bg-azulLR hover:text-white transition-all duration-300 z-10"
             >
               ¡Incríbete ahora!
             </a>

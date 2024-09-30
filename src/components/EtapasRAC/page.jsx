@@ -38,7 +38,7 @@ export default function EtapasRAC() {
       titulo: "Primaria Alta",
       edades: "9 a 11 años",
       texto:
-        "Etapa final en la que mediante conocimientos de ingeniería, aplican habilidades de diseño, construcción y programación utilizando el lenguaje de Python mientras desarrollan habilidades de trabajo en equipo.",
+        "Etapa final en la que mediante conocimientos de ingeniería, aplican habilidades de diseño, construcción y programación utilizando el lenguaje Python mientras desarrollan habilidades de trabajo en equipo.",
       imgSrc: "/img/imgPrimariaAlta.png",
       imgAlt: "Primaria baja",
     },
@@ -59,7 +59,7 @@ export default function EtapasRAC() {
           />
         </div>
       </div>
-      <div className="absolute right-0 bottom-0">
+      <div className="hidden sm:block absolute right-0 bottom-0">
         <div className="relative w-[420px] h-[110vh] lg:h-[150vh]">
           <Image
             src="/img/fondoEtapas2.png"
