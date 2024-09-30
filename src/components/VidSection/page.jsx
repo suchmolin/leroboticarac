@@ -9,7 +9,7 @@ export default function VidSection() {
       </h2>
       <div className="rounded-2xl w-[280px] xs:w-[360px] sm:w-[600px] aspect-video bg-gray-400 overflow-hidden flex justify-center items-center md:mb-32 z-10">
         <video
-          src="https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/Video%2060%20Landing%20page.mp4?alt=media&token=905c747e-86a6-407a-9e22-7085eb7cac4c"
+          src="https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/Video%2060%20Landing%20page_1.mp4?alt=media&token=89ef3772-33bf-41ca-bfe4-9286d7dcab33"
           controls
           autoPlay
           muted

@@ -40,10 +40,16 @@ export default function FooterRAC() {
         </li>
       </ul>
       <div className="flex gap-7 justify-center py-7">
-        <a href="#" className="hover:scale-110 transition-all duration-300">
+        <a
+          href="https://wa.me/584122030567"
+          className="hover:scale-110 transition-all duration-300"
+        >
           <FaWhatsapp className="bg-violetaLR text-white p-1 text-4xl rounded-lg" />
         </a>
-        <a href="#" className="hover:scale-110 transition-all duration-300">
+        <a
+          href="https://www.instagram.com/lerobotica/?hl=es"
+          className="hover:scale-110 transition-all duration-300"
+        >
           <IoLogoInstagram className="bg-violetaLR text-white p-1 text-4xl rounded-lg" />
         </a>
       </div>
