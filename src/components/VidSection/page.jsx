@@ -2,7 +2,7 @@ import Image from "next/legacy/image"
 import { FaPlay } from "react-icons/fa"
 export default function VidSection() {
   return (
-    <div className="w-full relative flex flex-col items-center bg-[url('/img/curvaFondo.webp')] bg-contain bg-bottom bg-no-repeat pb-10">
+    <div className="w-full relative flex flex-col items-center bg-[url('/img/curvaFondo.png')] bg-contain bg-bottom bg-no-repeat pb-10">
       <h2 className="text-base sm:text-2xl md:text-3xl text-azulLR text-center py-8 z-10">
         ¡Deja que la programación y la robotica <br />
         llenen de emoción las tardes de tus hijos!

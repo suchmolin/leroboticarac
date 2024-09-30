@@ -4,7 +4,7 @@ export default function DiferenciasRAC() {
   return (
     <div
       id="diferencia"
-      className="relative w-full flex justify-center  pt-20 pb-10 sm:py-20 bg-[url('/img/fondoDif.webp')] bg-contain bg-top bg-no-repeat -mt-1 "
+      className="relative w-full flex justify-center  pt-20 pb-10 sm:py-20 bg-[url('/img/fondoDif.png')] bg-contain bg-top bg-no-repeat -mt-1 "
     >
       <div className="w-11/12 sm:w-10/12 lg:w-9/12 flex flex-col-reverse sm:flex-row justify-between items-center z-10">
         <div className="w-7-12 xl:w-6/12 flex flex-col justify-center gap-3 py-10">

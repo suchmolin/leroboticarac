@@ -25,7 +25,7 @@ module.exports = {
         rojoLR: "#DA291C",
         azulLR: "#005EB8",
         azulClaroLR: "#b6e3e8",
-        tuquesaLR: "#27afbf",
+        tuquesaLR: "#2dadbe",
         violetaLR: "#AF1685",
         verdeLR: "#309B42",
         naranjaLR: "#FF8200",
