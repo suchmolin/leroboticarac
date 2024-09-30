@@ -2,7 +2,7 @@ import Image from "next/legacy/image"
 
 export default function HeaderRAC() {
   return (
-    <div className="w-full min-h-[100vh] sm:h-[100vh] flex justify-center mt-10 ">
+    <div className="w-full h-[660px] sm:h-[720px] flex justify-center mt-10 ">
       <div className="w-4/12 lg:w-3/12 h-full hidden sm:flex flex-col items-center justify-center">
         <div className="relative w-[200px] lg:w-[180px] xl:w-[200px] h-[300px] lg:h-[200px] xl:h-[300px] mb-7">
           <Image
