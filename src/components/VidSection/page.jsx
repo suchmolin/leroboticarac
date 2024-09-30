@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 import { FaPlay } from "react-icons/fa"
 export default function VidSection() {
   return (

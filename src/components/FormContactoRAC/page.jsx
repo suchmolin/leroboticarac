@@ -53,7 +53,7 @@ export default function FormContactoRAC() {
             className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full py-3 pl-3 placeholder:text-gray-800"
             required
           >
-            <option value="" disabled selected>
+            <option value="" disabled>
               Seleccione la sede
             </option>
             <option value="sede1">Sede 1</option>

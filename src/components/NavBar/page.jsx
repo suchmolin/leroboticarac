@@ -1,10 +1,10 @@
 export default function NavBar() {
   return (
     <div className="absolute top-0 w-full h-[50px] flex justify-center items-center bg-naranjaLR">
-      <ul className="w-full h-full flex text-white justify-center items-center">
+      <ul className="w-full h-full flex text-white justify-between sm:justify-center  items-center text-xs sm:text-base px-2">
         <li className="h-full items-center flex">
           <a
-            className="h-full flex items-center px-10 hover:bg-verdeLR transition-all duration-300"
+            className="h-full flex items-center sm:px-10 hover:bg-verdeLR transition-all duration-300"
             href="#conocenos"
           >
             Conócenos
@@ -12,7 +12,7 @@ export default function NavBar() {
         </li>
         <li className="h-full items-center flex">
           <a
-            className="h-full flex items-center px-10 hover:bg-verdeLR transition-all duration-300"
+            className="h-full flex items-center sm:px-10 hover:bg-verdeLR transition-all duration-300"
             href="#etapas"
           >
             Etapas
@@ -20,7 +20,7 @@ export default function NavBar() {
         </li>
         <li className="h-full items-center flex">
           <a
-            className="h-full flex items-center px-10 hover:bg-verdeLR transition-all duration-300"
+            className="h-full flex items-center sm:px-10 hover:bg-verdeLR transition-all duration-300"
             href="#horarios"
           >
             Horarios
@@ -28,7 +28,7 @@ export default function NavBar() {
         </li>
         <li className="h-full items-center flex">
           <a
-            className="h-full flex items-center px-10 hover:bg-verdeLR transition-all duration-300"
+            className="h-full flex items-center sm:px-10 hover:bg-verdeLR transition-all duration-300"
             href="#contactanos"
           >
             Contáctanos

@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 import { FaWhatsapp } from "react-icons/fa"
 import { IoLogoInstagram } from "react-icons/io5"
 
