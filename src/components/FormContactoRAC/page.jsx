@@ -1,10 +1,33 @@
 "use client"
 import { Select, Textarea, TextInput } from "flowbite-react"
+import SendedMsg from "../SendedMsg/page"
+import { useState } from "react"
 
 export default function FormContactoRAC() {
+  const [sended, setSended] = useState(false)
+  const urlGS =
+    "https://script.google.com/macros/s/AKfycbyihYNwVxdDAficE5DH7bIY0Fh0TxK27TwElzRU9aTs5Z8nlZNot3FDV8KAQ5kCZPmq/exec"
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    const formData = new FormData(e.target)
+    const data = Object.fromEntries(formData)
+    try {
+      await fetch(urlGS, { method: "POST", body: formData })
+    } catch (error) {
+      console.log(error)
+    }
+
+    document.getElementById("myForm").reset()
+    setSended(true)
+
+    setTimeout(() => {
+      setSended(false)
+    }, 5000)
+  }
   return (
     <div className="w-full flex items-center justify-center pb-20">
       <form
+        onSubmit={handleSubmit}
         id="myForm"
         className="relative w-full sm:w-9/12 bg-white/40 py-10 px-5 xs:px-10 rounded-xl flex flex-col gap-3 sm:gap-7 justify-center items-center shadow-xl"
       >
@@ -23,7 +46,7 @@ export default function FormContactoRAC() {
             placeholder="Ciudad"
             type="text"
             id="ciudad"
-            name="ciudad"
+            name="Ciudad"
             className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full px-2.5 py-5  placeholder:text-gray-800"
             required
           />
@@ -31,7 +54,7 @@ export default function FormContactoRAC() {
             placeholder="Telefono"
             type="number"
             id="telefono"
-            name="telefono"
+            name="Telefono"
             className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full px-2.5 py-5 placeholder:text-gray-800"
             required
           />
@@ -41,7 +64,7 @@ export default function FormContactoRAC() {
             placeholder="Correo Electrónico"
             type="email"
             id="email"
-            name="email"
+            name="Correo"
             className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full px-2.5 py-5  placeholder:text-gray-800"
             required
           />
@@ -49,7 +72,7 @@ export default function FormContactoRAC() {
         <div className="w-full ">
           <select
             id="sede"
-            name="sede"
+            name="Sede"
             className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full py-3 pl-3 placeholder:text-gray-800"
             required
           >
@@ -70,15 +93,21 @@ export default function FormContactoRAC() {
           <textarea
             placeholder="Mensaje"
             id="mensaje"
-            name="mensaje"
+            name="Mensaje"
             className="bg-white border-none text-gray-900 text-sm rounded-lg block w-full py-3 pl-3 placeholder:text-gray-800"
           />
         </div>
+        <input
+          type="hidden"
+          name="Origen"
+          value="Landing Page Regreso a Clases"
+        />
         <input
           type="submit"
           value="¡Inscríbete ahora!"
           className="absolute -bottom-16 bg-azulLR text-white rounded-3xl py-1 px-5 xs:px-10 text-2xl font-[GothamBold] hover:bg-violetaLR transition-all duration-300 cursor-pointer"
         />
+        {sended && <SendedMsg />}
       </form>
     </div>
   )
