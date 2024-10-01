@@ -20,7 +20,7 @@ export default function HeaderRAC() {
           </span>
         </h2>
       </div>
-      <div className="w-full sm:w-8/12 lg:w-9/12 flex flex-col-reverse sm:flex-col lg:flex-row bg-[url('/img/fondoHeaderResp.png')] sm:bg-[url('/img/fondoHeader.jpg')] bg-cover bg-no-repeat bg-bottom sm:bg-left-bottom sm:pl-20 lg:pl-0">
+      <div className="w-full sm:w-8/12 lg:w-9/12 flex flex-col-reverse sm:flex-col lg:flex-row bg-[url('/img/fondoHeaderResp.png')] sm:bg-[url('/img/fondoHeader.webp')] bg-cover bg-no-repeat bg-bottom sm:bg-left-bottom sm:pl-20 lg:pl-0">
         <div className="w-full h-full flex flex-col-reverse justify-end sm:justify-start sm:flex-col lg:flex-row pt-10">
           <div className="lg:w-6/12 flex flex-col-reverse sm:flex-col justify-center items-center lg:items-start lg:pl-[7%] sm:py-5 lg:py-0 text-center sm:text-start">
             <div className="flex flex-col">
