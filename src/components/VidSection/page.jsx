@@ -4,7 +4,7 @@ export default function VidSection() {
   return (
     <div className="w-full relative flex flex-col items-center bg-[url('/img/curvaFondo.png')] bg-contain bg-bottom bg-no-repeat pb-10">
       <h2 className="text-base sm:text-2xl md:text-3xl text-azulLR text-center py-8 z-10">
-        ¡Deja que la programación y la robotica <br />
+        ¡Deja que la programación y la robótica <br />
         llenen de emoción las tardes de tus hijos!
       </h2>
       <div className="rounded-2xl w-[280px] xs:w-[360px] sm:w-[600px] aspect-video bg-gray-400 overflow-hidden flex justify-center items-center md:mb-32 z-10">

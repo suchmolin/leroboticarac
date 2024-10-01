@@ -25,8 +25,7 @@ export default function HeaderRAC() {
           <div className="lg:w-6/12 flex flex-col-reverse sm:flex-col justify-center items-center lg:items-start lg:pl-[7%] sm:py-5 lg:py-0 text-center sm:text-start">
             <div className="flex flex-col">
               <h2 className="text-2xl md:text-4xl xl:text-5xl text-azulLR sm:mb-4 leading-[25px] sm:leading-normal mt-2 sm:mt-0">
-                ¡Una innovación <br />
-                extracurricular!
+                ¡Una extracurricular <br /> innovadora!
               </h2>
               <h1 className="text-3xl md:text-5xl xl:text-6xl text-violetaLR font-[GothamBlack] sm:mb-10 leading-[28px] sm:leading-normal mt-2 sm:mt-0">
                 Robótica y <br /> programación

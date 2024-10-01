@@ -32,7 +32,7 @@ export default function DiferenciasRAC() {
           <div className="flex gap-4 sm:text-lg lg:text-xl">
             <div className="w-[15px] h-[15px] mt-2 bg-amarilloLR"></div>
             <p className="w-11/12">
-              Enseñamos robótica y programacion con el{" "}
+              Enseñamos robótica y programación con el{" "}
               <b>Sistema de Aprendizaje LEGO</b>
             </p>
           </div>
