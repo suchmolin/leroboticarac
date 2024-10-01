@@ -21,7 +21,7 @@ export default function VidSection() {
         id="conocenos"
         className="w-full lg:w-10/12 flex flex-col md:flex-row items-center"
       >
-        <div className="relative w-[270px] xs:w-[300px] md:w-[500px] aspect-square z-10">
+        <div className="relative w-[270px] xs:w-[300px] md:w-[550px] aspect-square z-10">
           <Image
             src="/img/robotConocenos.png"
             layout="fill"
@@ -51,7 +51,7 @@ export default function VidSection() {
       >
         ¡Conoce las etapas!
       </h2>
-      <div className="absolute left-0 top-60 sm:top-20 md:top-[450px] lg:top-60">
+      <div className="absolute left-0 top-60 sm:top-20 md:top-[450px] lg:top-72">
         <div className="relative w-[200px] sm:w-[300px] lg:w-[500px] aspect-square">
           <Image
             src="/img/linea.png"
