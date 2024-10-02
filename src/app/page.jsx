@@ -11,9 +11,6 @@ import WhatsappButton from "@/components/WhatsappButton/page"
 export default function Home() {
   return (
     <main className="font-[Gotham]">
-      {/*
-
-*/}
       <NavBar />
       <HeaderRAC />
       <VidSection />
@@ -23,8 +20,6 @@ export default function Home() {
       <ContactanosRAC />
       <WhatsappButton />
       <FooterRAC />
-      {/*
-       */}
     </main>
   )
 }
