@@ -9,7 +9,7 @@ export default function HeaderRAC() {
             src="/img/logo.png"
             objectFit="contain"
             layout="fill"
-            alt="Lerobotica"
+            alt="lerobotica instituto de robótica y programación"
             priority
           />
         </div>
@@ -44,7 +44,7 @@ export default function HeaderRAC() {
                 src="/img/imgHeaderRAC.png"
                 objectFit="contain"
                 layout="fill"
-                alt="Lerobotica"
+                alt="joven feliz por haber construido y programado un robot"
                 objectPosition="bottom"
                 priority
               />
