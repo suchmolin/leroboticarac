@@ -14,7 +14,7 @@ export default function EtapasRAC() {
       texto:
         "Etapa principal donde los niños aprenden las bases de la codificación temprana a través de secuencias y bucles, además de desarrollar sus habilidades en lectoescritura y logran identificar y comunicar sus emociones.",
       imgSrc: "/img/imgPreescolar.png",
-      imgAlt: "Preescolar",
+      imgAlt: "niño pequeño jugando con legos",
     },
     {
       colorFondo: "bg-white",
@@ -27,7 +27,7 @@ export default function EtapasRAC() {
       texto:
         "Etapa media donde los niños desarrollan habilidades en programación utilizando el lenguaje de Scratch Jr, además de fomentar competentencias socioemocionales, lingüísticas y matemáticas.",
       imgSrc: "/img/imgPrimariaBaja.png",
-      imgAlt: "Primaria baja",
+      imgAlt: "niña pequeña feliz por haber contruido un robot",
     },
     {
       colorFondo: "bg-azulLR",
@@ -40,7 +40,7 @@ export default function EtapasRAC() {
       texto:
         "Etapa final en la que mediante conocimientos de ingeniería, aplican habilidades de diseño, construcción y programación utilizando el lenguaje Python mientras desarrollan habilidades de trabajo en equipo.",
       imgSrc: "/img/imgPrimariaAlta.png",
-      imgAlt: "Primaria baja",
+      imgAlt: "niño con un robot hecho con legos",
     },
   ]
   return (

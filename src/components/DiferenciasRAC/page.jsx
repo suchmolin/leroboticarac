@@ -48,7 +48,7 @@ export default function DiferenciasRAC() {
             src="/img/robotDif.png"
             layout="fill"
             objectFit="contain"
-            alt="robot"
+            alt="Robot conformado por legos"
           />
         </div>
       </div>
