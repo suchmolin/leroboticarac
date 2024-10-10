@@ -26,7 +26,7 @@ export default function VidSection() {
             src="/img/robotConocenos.png"
             layout="fill"
             objectFit="contain"
-            alt="Lerobotica robot"
+            alt="Robot contruido con Legos"
           />
         </div>
         <div className="w-full sm:w-10/12 md:w-6/12 flex flex-col justify-center px-5 sm:px-10">

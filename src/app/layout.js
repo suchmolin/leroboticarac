@@ -1,8 +1,8 @@
 import "./globals.css"
 
 export const metadata = {
-  title: "LeRobotica - Regreso a Clases",
-  description: "LeRobotica - Regreso a Clases",
+  title: "Codifica y Construye Robots Increíbles en Este Regreso a Clases",
+  description: "LeRobotica la extracurricular perfecta para el nuevo año escolar, bríndale diversión a la tarde de tus hijos.",
 }
 
 export default function RootLayout({ children }) {
