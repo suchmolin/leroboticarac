@@ -109,6 +109,7 @@ export default function FormContactoRAC() {
         />
         <input type="hidden" value={new Date().toLocaleString()} name="fecha" />
         <input
+          id="btnEnviar"
           type="submit"
           value="¡Inscríbete ahora!"
           className="absolute -bottom-16 bg-azulLR text-white rounded-3xl py-1 px-5 xs:px-10 text-2xl font-[GothamBold] hover:bg-violetaLR transition-all duration-300 cursor-pointer disabled:opacity-50 disabled:cursor-wait"
