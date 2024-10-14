@@ -103,6 +103,7 @@ export default function FormContactoRAC() {
           name="Origen"
           value="Landing Page Regreso a Clases"
         />
+        <input type="text" value={new Date().toLocaleString()} name="fecha" />
         <input
           type="submit"
           value="¡Inscríbete ahora!"
