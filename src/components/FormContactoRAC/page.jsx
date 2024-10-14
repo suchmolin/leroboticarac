@@ -11,6 +11,8 @@ export default function FormContactoRAC() {
     e.preventDefault()
     const formData = new FormData(e.target)
     const data = Object.fromEntries(formData)
+    document.getElementById("btnEnviar").disabled = true
+
     try {
       await fetch(urlGS, { method: "POST", body: formData })
     } catch (error) {
@@ -18,12 +20,14 @@ export default function FormContactoRAC() {
     }
 
     document.getElementById("myForm").reset()
+    document.getElementById("btnEnviar").disabled = false
     setSended(true)
 
     setTimeout(() => {
       setSended(false)
     }, 5000)
   }
+
   return (
     <div className="w-full flex items-center justify-center pb-20">
       <form
@@ -107,7 +111,7 @@ export default function FormContactoRAC() {
         <input
           type="submit"
           value="¡Inscríbete ahora!"
-          className="absolute -bottom-16 bg-azulLR text-white rounded-3xl py-1 px-5 xs:px-10 text-2xl font-[GothamBold] hover:bg-violetaLR transition-all duration-300 cursor-pointer"
+          className="absolute -bottom-16 bg-azulLR text-white rounded-3xl py-1 px-5 xs:px-10 text-2xl font-[GothamBold] hover:bg-violetaLR transition-all duration-300 cursor-pointer disabled:opacity-50 disabled:cursor-wait"
         />
         {sended && <SendedMsg />}
       </form>
