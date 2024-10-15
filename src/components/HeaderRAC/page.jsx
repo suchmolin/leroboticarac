@@ -35,7 +35,7 @@ export default function HeaderRAC() {
               href="#contactanos"
               className="w-fit px-16 py-3 sm:py-2 bg-verdeLR rounded-3xl inline-block text-white text-lg xs:text-2xl font-[GothamBlack] hover:bg-azulLR hover:text-white transition-all duration-300 z-10"
             >
-              ¡Incríbete ahora!
+              ¡Inscríbete ahora!
             </a>
           </div>
           <div className="lg:w-6/12 flex items-end justify-center lg:justify-start sm:h-full">
